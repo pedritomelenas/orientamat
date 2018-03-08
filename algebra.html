@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Optativas en Álgebra
+    </title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 30%;
+        height: 92%;
+        float: left;
+      }
+      .right-column {
+        width: 70%;
+        float: right;
+        padding-top: 3em;
+      }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+        right: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+      class: center, middle
+
+      # Optatividad en Álgebra
+
+      Pedro A. García Sánchez
+      
+      Departamento de Álgebra
+
+      Marzo 2018
+      ---
+      .left-column[
+      ## Matemáticas
+
+      Primer semestre
+      ]
+      .right-column[
+      ## Historia de las matemáticas
+      
+      - Resolución de ecuaciones a lo largo de la historia
+      - Teoría de grupos
+      - Teoría de cuerpos
+      - Historia de la Criptografía
+      ]
+      ---
+      .left-column[
+      ## Matemáticas
+
+      Primer semestre
+      ]
+      .right-column[
+
+      ## Álgebra Conmutativa Computacional
+      
+      - Sistemas de ecuaciones y variedades algebraicas afines
+      - Bases de Gröbner y Algoritmos básicos
+      - Eliminación e implicitación
+      - Variedades irreducibles y descomposición
+      - Dimensión
+      ]
+      ---
+
+      .left-column[
+      ## Matemáticas
+
+      Segundo semestre
+      ]
+      .right-column[
+
+      ## Álgebras, Grupos y Representaciones
+      
+      - Álgebras de dimensión finita
+      - Módulos simples
+      - Álgebras de matrices
+      - Estructura de las álgebras semisimples
+      - Clasificación de las álgebras de división reales
+      - Representaciones lineales de grupos finitos
+      - Teoría de Caracteres
+      ]
+      ---
+
+      .left-column[
+      ## Matemáticas
+
+      Segundo semestre
+      ]
+      .right-column[
+
+
+      ## Álgebra Moderna
+      
+      - Categorías de Módulos
+      - Teoremas de isomorfía, presentaciones y condiciones de finitud
+      - Anillos artinianos y noetherianos
+      - Módulos indescomponibles y teoremas de descomposición
+      - Teoremas de Estructura
+      ]
+
+      ---
+      .left-column[
+      ## Matemáticas
+
+      Segundo semestre
+      ]
+      .right-column[
+
+
+      ## Teoría de Números y Criptografía
+      
+      - Introducción a la Teoría Algebraica de Números
+      - Elementos enteros y descomposición de ideales en extensiones
+      - Factorización y tests de primalidad
+      - Criptografía asimétrica y criptosistemas
+      ]
+      
+      ---
+      .left-column[
+      ## Informática
+
+      Primer semestre
+      ]
+
+      .right-column[
+      ## Lógica y programación
+      
+      - Lenguages de primer orden
+      - Interpretaciones y demostraciones
+      - Principio de resolución y PROLOG
+      - &lambda;-cálculo y lógica combinatoria
+      - Demostraciones y formas normales
+      - Haskell
+      ]
+
+      ---
+      .left-column[
+      ## Informática
+
+      Primer semestre
+      ]
+
+      .right-column[
+      ## Seguridad y protección de sistemas informáticos
+      
+      - Técnicas criptográficas básicas y avanzadas
+      - Protocolos criptográficos y certificados digitales      
+      - Aplicaciones de seguridad: marcas de agua y comercio electrónico
+      - Seguridad en Internet: protocolos y herramientas
+      - Identidad digital e identificación biométrica en sistemas informáticos
+      ]
+
+      ---
+      .left-column[
+      ## Informática
+
+      Segundo semestre
+      ]
+      
+      .right-column[
+      ## Criptografía y computación
+      
+      - Tests de primalidad y factorización
+      - Criptografía en flujo
+      - Criptografía simétrica
+      - Criptografía asimétrica
+      - Protocolos
+      ]
+
+      ---
+
+      .left-column[
+      ## Contacto
+      ] 
+      
+      .right-column[
+      
+      Despacho 39, Álgebra
+      
+      Despacho 2.16, ETSIIT
+      
+      Despacho subdirección IEMath-GR
+      
+      www.ugr.es/local/pedro
+      
+      pedro@ugr.es
+      ]
+
+      .footnote[Más información en [algebra.ugr.es -> Docencia](http://algebra.ugr.es/pages/docencia)]
+    
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+var slideshow = remark.create({
+  // Set the slideshow display ratio
+  // Default: '4:3'
+  // Alternatives: '16:9', ...
+  ratio: '16:9',
+
+  // Navigation options
+  navigation: {
+    // Enable or disable navigating using scroll
+    // Default: true
+    // Alternatives: false
+    scroll: true,
+
+    // Enable or disable navigation using touch
+    // Default: true
+    // Alternatives: false
+    touch: true,
+
+    // Enable or disable navigation using click
+    // Default: false
+    // Alternatives: true
+    click: false
+  },
+
+  // Customize slide number label, either using a format string..
+  // slideNumberFormat: '%current% de %total%',
+  // .. or by using a format function
+  slideNumberFormat: function (current, total) {
+    return current + ' de ' + total;
+  },
+
+  // Enable or disable counting of incremental slides in the slide counting
+  countIncrementalSlides: false
+});     </script>
+  </body>
+</html>
